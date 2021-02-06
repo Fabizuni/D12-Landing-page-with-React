@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Carousel = props => {
+export const Carousel = props => {
 	return (
 		<div className="card" style={{ width: "100%" }}>
 			<img
