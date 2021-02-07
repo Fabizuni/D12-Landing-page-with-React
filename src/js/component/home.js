@@ -11,10 +11,10 @@ export function Home() {
 		<div className="text-center container-fluid">
 			<Navbar />
 			<Header />
-			<div className="row mt-5">
+			<div className="row my-5">
 				{carouselList.map((value, index) => {
 					return (
-						<div className="col-sm-3" key={index}>
+						<div className="col-sm-12 col-md-3 my-3" key={index}>
 							<Carousel />
 						</div>
 					);
